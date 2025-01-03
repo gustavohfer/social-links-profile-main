@@ -1,0 +1,8 @@
+:root {
+    --textcolor1: hsl(0, 0%, 100%);
+    --textcolor2:  hsl(75, 94%, 57%);
+
+    --bgcolor2: hsl(0, 0%, 8%);
+    --bgcolor1: hsl(from var(--bgcolor2) h s 12%);
+    --buttoncolor: hsl(from var(--bgcolor2) h s 20%);
+}
