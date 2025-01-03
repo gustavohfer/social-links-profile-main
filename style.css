@@ -75,7 +75,7 @@ nav ul {
     gap: 16px;
 }
 
-nav ul li {
+nav ul li a{
     background-color: var(--buttoncolor);
 
     display: flex;
@@ -90,7 +90,7 @@ nav ul li {
     transition: 0.1s ease-in-out;
 }
 
-nav ul li:hover {
+nav ul li a:hover {
     background-color: var(--textcolor2);
     color: var(--bgcolor2);
 }
